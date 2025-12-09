@@ -1,0 +1,51 @@
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Arkusz 9.5</title>
+    <style>
+      header,
+      body,
+      nav,
+      section,
+      aside,
+      footer {
+        border: solid;
+      }
+      header {
+        height: 15%;
+      }
+      #jeden {
+        display: flex;
+        width: 80%;
+        height: 30%;
+        flex-direction: column;
+      }
+      nav {
+        width: 80%;
+        height: 30%;
+      }
+      aside {
+        height: 100%;
+        width: 20%;
+      }
+      #dwa {
+        display: flex;
+        border: none;
+        height: 15%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Blok nagłówkowy</header>
+    <main>
+      <section id="jeden">
+        <nav>Blok nawigacyjny</nav>
+        <section id="dwa">
+          <section>Sekcja lewa</section>
+          <section>Sekcja środkowa</section>
+        </section>
+        <section><aside>Blok boczny</aside></section>
+      </section>
+    </main>
+  </body>
+</html>
